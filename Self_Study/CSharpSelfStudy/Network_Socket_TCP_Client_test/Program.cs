@@ -11,8 +11,7 @@ namespace Network_Socket_TCP_Client_test
             Thread clientThread = new Thread(clientFunc);
             clientThread.IsBackground = true;
             clientThread.Start();
-
-
+            //////////////////////
             Thread.Sleep(500);  // 클라이언트 소켓 스레드가 실행될 시간 주기 위해
 
             Console.WriteLine("클라이언트 실행");
