@@ -171,6 +171,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network_Socket_TCP_Server_t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network_Socket_TCP_Client_test", "Network_Socket_TCP_Client_test\Network_Socket_TCP_Client_test.csproj", "{F52D2F09-BAF0-40AA-90B6-DB82895BC1C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07_Generics", "Ch07_Generics\Ch07_Generics.csproj", "{3234B669-9D81-4271-AF8C-F571CEE0EC29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08_Lambda", "Ch08_Lambda\Ch08_Lambda.csproj", "{218E63BE-E0DB-49B9-9BF4-637CEF1F4FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -513,6 +517,14 @@ Global
 		{F52D2F09-BAF0-40AA-90B6-DB82895BC1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52D2F09-BAF0-40AA-90B6-DB82895BC1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52D2F09-BAF0-40AA-90B6-DB82895BC1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3234B669-9D81-4271-AF8C-F571CEE0EC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3234B669-9D81-4271-AF8C-F571CEE0EC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3234B669-9D81-4271-AF8C-F571CEE0EC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3234B669-9D81-4271-AF8C-F571CEE0EC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218E63BE-E0DB-49B9-9BF4-637CEF1F4FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218E63BE-E0DB-49B9-9BF4-637CEF1F4FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218E63BE-E0DB-49B9-9BF4-637CEF1F4FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218E63BE-E0DB-49B9-9BF4-637CEF1F4FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
