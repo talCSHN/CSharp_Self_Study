@@ -19,18 +19,18 @@
         }
         static void Main(string[] args)
         {
-            Thread thread = new Thread(
-                delegate (object obj)
-                {
-                    Console.WriteLine("Anonymous Method");
-                });
+            //    Thread thread = new Thread(
+            //        delegate (object obj)
+            //        {
+            //            Console.WriteLine("Anonymous Method");
+            //        });
 
-            // 위의 코드를
-            // 아래처럼 람다식을 사용하여 단순화할 수 있음
-            Thread thread1 = new Thread((obj) =>
-            {
-                Console.WriteLine("Anonymous Method");
-            });
+            //    // 위의 코드를
+            //    // 아래처럼 람다식을 사용하여 단순화할 수 있음
+            //    Thread thread1 = new Thread((obj) =>
+            //    {
+            //        Console.WriteLine("Anonymous Method");
+            //    });
 
             int count = Count(5);
             Console.WriteLine(count);
