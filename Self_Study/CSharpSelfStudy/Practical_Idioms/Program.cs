@@ -1,5 +1,14 @@
 ﻿namespace Practical_Idioms
 {
+    public class Person
+    {
+        public string Name {  get; set; }
+        public DateTime Birthday { get; set; }
+        public string PhoneNumber {  get; set; }
+        public Person()
+        {
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -14,7 +23,16 @@
                 ["en"] = "영어",
                 ["jp"] = "일본어",
             };
-            Console.WriteLine(dict["ko"]);
+            // 객체 초기화
+            var person = new Person
+            {
+                Name = "홍길동",
+                Birthday = new DateTime(1995, 11, 26),
+                PhoneNumber = "010-1234-5678"
+            };
+            // List<T> 요소 처리
+            var list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            list.ForEach(n => Console.Write($"{n}\t"));
         }
     }
 }
