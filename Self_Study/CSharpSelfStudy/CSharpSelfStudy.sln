@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_LINQ", "Practical
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_LINQ_Sequence", "Practical_LINQ_Sequence\Practical_LINQ_Sequence.csproj", "{416D2436-5890-44A0-AE49-F6A51511BFC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_Idioms", "Practical_Idioms\Practical_Idioms.csproj", "{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +545,10 @@ Global
 		{416D2436-5890-44A0-AE49-F6A51511BFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416D2436-5890-44A0-AE49-F6A51511BFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416D2436-5890-44A0-AE49-F6A51511BFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
