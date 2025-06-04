@@ -1,4 +1,6 @@
-﻿namespace Practical_String
+﻿using System.Text;
+
+namespace Practical_String
 {
     internal class Program
     {
@@ -116,6 +118,27 @@
             var seperator = ", ";
             var result5 = String.Join(seperator, people);
             Console.WriteLine(result5);
+
+            // StringBuilder
+            // 문자열은 불변 객체임. 문자열에 변동사항이 생길때마다 새로운 인스턴스가 생성됨
+            // 아래 코드를 실행하면 ABC뒤에 XYZ가 연결되는 것이 아니라 새로운 6자 크기의 인스턴스가 생성되고
+            // 그 인스턴스에 ABC가 복사되고 그 뒤에 XYZ가 복사됨
+            // 즉 메모리 자원낭비 발생
+            var s1 = "ABC";
+            s1 = s1 + "XYZ";
+            // 이를 해결하기 위해 StringBuilder 사용. 다만 반복처리를 하지 않을 경우에는 + 연산자로 문자열 연결 권장
+            var sb = new StringBuilder();   // StringBuilder 객체 생성
+            foreach (var word in name1)
+            {
+                sb.Append(word);
+            }
+            var text = sb.ToString();
+            Console.WriteLine(text);
+
+            // 문자열 하나씩 꺼낼 때 - foreach 사용
+            // 문자 배열로 문자열 생성
+            var chars = new char[] { 'a', 'b', 'c', 'd', };
+            var str = new string(chars);
         }
     }
 }
