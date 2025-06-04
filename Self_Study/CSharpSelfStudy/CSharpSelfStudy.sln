@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_LINQ_Sequence", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_Idioms", "Practical_Idioms\Practical_Idioms.csproj", "{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_String", "Practical_String\Practical_String.csproj", "{5CFC9B33-9E1D-4083-A1AE-6A0959B38E99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -549,6 +551,10 @@ Global
 		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3FCFDCC-FA9A-4A12-8D45-E2F51BB1A4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFC9B33-9E1D-4083-A1AE-6A0959B38E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFC9B33-9E1D-4083-A1AE-6A0959B38E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFC9B33-9E1D-4083-A1AE-6A0959B38E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFC9B33-9E1D-4083-A1AE-6A0959B38E99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
