@@ -52,6 +52,12 @@
             // 조건 일치 요소 존재
             bool exists = numbers2.Any(n => n % 7 == 0);
             Console.WriteLine(exists);
+            // 모든 요소가 조건 만족하는지 조사
+            bool exists1 = numbers2.All(n => n % 7 == 0);
+            Console.WriteLine(exists);
+            // 두 컬렉션 같은지 여부
+            bool equal = numbers1.SequenceEqual(numbers2);
+
         }
     }
 }
